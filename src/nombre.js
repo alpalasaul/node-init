@@ -1,5 +1,5 @@
-const interface = requiere('readline-sync')
+const interface = require('readline-sync')
 
-let nombre = interface.question('Escribe tu nombre')
+let nombre = interface.question('Escribe tu nombre: ')
 
-console.log('Hola' + nombre)
+console.log('Hola ' + nombre)

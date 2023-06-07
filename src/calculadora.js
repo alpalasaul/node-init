@@ -16,7 +16,7 @@ do {
     response = readline.question('Selecciona la operacion: ')
     if (response !== '5') {
         const firstNumber = readline.question('Escriba el primer número: ')
-        const secondNumber = readline.question('Escriba el segundp número: ')
+        const secondNumber = readline.question('Escriba el segundo número: ')
 
         switch(response) {
             case "1":
