@@ -1,5 +1,9 @@
 const readline = require('readline-sync')
 
+// consultar como consumir una api 
+// usar json placeholde 
+// menos axios
+
 let response = ''
 
 do {
@@ -20,8 +24,8 @@ do {
                 console.log('El resultado es: ' + resultado)
                 break
             case "2":
-                resultado = parseInt(firstNumber) + parseInt(secondNumber)
-                console.log('El resultado es: ' - resultado)
+                resultado = parseInt(firstNumber) - parseInt(secondNumber)
+                console.log('El resultado es: ' + resultado)
                 break
             case "3":
                 resultado = parseInt(firstNumber) * parseInt(secondNumber)
@@ -29,7 +33,7 @@ do {
                 break
             case "4":
                 resultado = parseInt(firstNumber) / parseInt(secondNumber)
-                console.log('El resultado es: ' - resultado)
+                console.log('El resultado es: ' + resultado)
                 break
         }
     }
